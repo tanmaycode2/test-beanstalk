@@ -1,0 +1,28 @@
+
+@mixin left-padding {
+    padding-left: 30px;
+}
+
+@mixin right-padding {
+    padding-right: 30px;
+}
+
+@mixin custom-padding {
+    padding: 10px;
+}
+
+@mixin custom-top-padding {
+    padding-top: 10px;
+}
+
+@mixin top-padding {
+    padding-top: 30px;
+}
+
+@mixin bottom-padding {
+    padding-bottom: 30px;
+}
+
+@mixin base-padding {
+    padding: 10px;
+}

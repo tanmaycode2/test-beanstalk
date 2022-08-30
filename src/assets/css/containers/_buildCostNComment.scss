@@ -1,0 +1,58 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+
+.accordin-drop-down-content {    
+    display: flex !important;
+    flex-direction: column !important;
+    float: right;
+    position: relative;
+    top: 33px;
+    left: 45px;
+    background-color: $secondary-white;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+.accordin-drop-down-content-dollar {
+    position: relative !important;
+    left: 12px !important;
+    top: 13px !important;
+    
+    &:hover {
+        position: relative !important;
+        left: 12px !important;
+        top: 13px !important;
+        color: $secondary-caribbean-green;
+    }
+}
+
+.accordin-drop-down-content-chat{
+    position: relative;
+    left: -10px;
+    top: 22px;
+
+    &:hover {
+        position: relative;
+        color: $secondary-caribbean-green;
+    }
+}
+
+.inputfield-wrapper {
+    position: absolute;
+    left: -175px;
+    height: 34px;
+    top: 7px;
+    padding: 3px;
+}
+
+.textarea-wrapper {
+    position: absolute;
+    left: -290px;
+    top: 30px;
+    padding: 8px;
+    height: 75px;
+}
+
+.inputfield-content {
+    position: relative;
+}

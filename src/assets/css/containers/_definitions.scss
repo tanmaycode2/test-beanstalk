@@ -1,0 +1,87 @@
+@import "../colors/colors";
+
+
+.definition-body{
+    padding-bottom: 30px;
+}
+.Acceptable {
+    color: $severity-acceptable;
+}
+.applicable{
+    color: $severity-acceptable;
+}
+.not-present {
+    color: $severity-not-present;
+}
+.not-inspected {
+    color: $severity-not-inspected;
+}
+.Marginal {
+    color: $severity-marginal;
+}
+.Defective {
+    color: $severity-defective;
+}
+.Deficient {
+    color: $severity-defecient;
+}
+.not-applicable {
+    color: $severity-not-present;
+}
+.Inspected {
+    color: $severity-extra-1;
+}
+.Extra {
+    color: $severity-extra-1;
+}
+.definitions-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.definitions {
+    font-size: 15px;
+    margin-left: 30px;
+    line-height: 22px;
+}
+.definitions-list {
+    list-style-type: none;
+}
+.definitions-list-item {
+    margin-bottom: 15px;
+}
+.definition-footer {
+    color: #3b3b3b;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0.27px;
+    line-height: 25px;
+}
+.rating-name {
+    font-weight: 600;
+    margin-left: 8px;
+    color: $primary-black-olive;
+}
+.rating-normal {
+    font-size: 16px;    
+}
+.rating-small {
+    font-size: 14px;
+}
+.rating-definition {
+    margin-left: 25px;
+    display: block;
+    color: $primary-black-olive;
+}
+.definition-normal {
+    font-size: 16px;
+    // font-weight: 500;
+}
+.definition-small {
+    font-size: 14px;
+}
+.repair-selected{
+    color: $secondary-caribbean-green;
+}
+.rating-circle{
+    font-size: 18px!important;
+}

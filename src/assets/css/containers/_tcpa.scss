@@ -1,0 +1,60 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+
+.tcpa-background {
+  width: 100vw;
+  height: calc(100vh + 57px);
+  z-index: 9 !important;
+  background-color: rgba(22, 22, 22, 0.6);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex !important;
+  overflow: auto;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.tcpa-title {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  font-size: 28px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  float: left;
+  letter-spacing: 0.41px;
+  line-height: 40px;
+  color: $primary-black-olive;
+}
+
+.tcpa-card-container {
+  max-width: 740px !important;
+  margin: auto !important;
+  position: relative;
+  top: -23px;
+}
+
+.tcpa-body {
+  max-height: 700px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  border: 1px solid $secondary-light-silver;
+  @include base-padding;
+}
+.tcpa-content {
+  position: relative;
+  padding-top: 20px;
+}
+
+.typography-paragraph {
+  letter-spacing: 0.27px;
+  max-height: 200;
+  overflow-y: "auto";
+  font-family: "Open Sans";
+  font-size: "16px";
+}
+.tcpa-para-content{
+  text-align: justify;
+}

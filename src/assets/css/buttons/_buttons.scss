@@ -1,0 +1,223 @@
+@import "../colors/colors";
+
+.sweetalert-redirect-btn {
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  color: $secondary-white;
+  background-color: $secondary-caribbean-green;
+}
+
+.login-signin-button {
+  border: 0px !important;
+  border-radius: 3px !important;
+  color: $secondary-white !important;
+  background-color: $secondary-caribbean-green !important;
+  box-shadow: none !important;  
+  font-family: "Open Sans" !important;
+  margin-left: 31px !important;
+  margin-top: 45px!important;
+  font-weight: 600;
+}
+.login-setup-button{
+  border: 0px !important;
+  border-radius: 3px !important;
+  color: $secondary-white !important;
+  background-color: $secondary-caribbean-green !important;
+  box-shadow: none !important;
+  font-family: "Open Sans" !important;
+  margin-left: 31px !important;
+  margin-top: 20px!important;
+}
+.login-signin-button:hover {
+  box-shadow: none !important;
+   margin-left: 31px !important;
+}
+
+.login-signup-button {
+  border: 0px !important;
+  border-radius: 0px !important;
+  color: $secondary-sonic-silver !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+
+.login-signup-button:hover {
+  box-shadow: none !important;
+}
+
+.login-forgot-button {
+  border: 0px !important;
+  border-radius: 0px !important;
+  color: $secondary-sonic-silver !important;
+  box-shadow: none !important;
+  text-decoration: underline !important;
+  text-transform: capitalize !important;
+  font-size: 12px !important;
+   margin-left: 22px !important;
+   padding: 12px !important;
+}
+
+.login-forgot-button:hover {
+  box-shadow: none !important;
+  background-color: none !important;
+  margin-left: 22px !important;
+   padding: 12px !important;
+
+}
+.header-build-request-button {
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  background-color: $secondary-caribbean-green !important;
+  padding-top: 8px!important;
+  &:hover {
+    background-color: $primary-guppie-green !important;
+    transition: 0.2s ease-in;
+  }
+}
+.build-req-preview-button {
+  box-sizing: border-box;
+  height: 44px;
+  width: 112px;
+  border: 1px solid $secondary-caribbean-green !important;
+  border-radius: 2px;
+  letter-spacing: 0.5px!important;
+  font-weight: 500!important;
+  color: $secondary-caribbean-green !important;
+  margin-right: 10px !important;
+  box-shadow: none!important;
+  &:hover {
+    color: $secondary-white !important;
+    background: $primary-guppie-green !important;
+    border: 1px solid $primary-guppie-green !important;
+    transition: 0.2s ease-in;
+    box-shadow: none!important;
+  }
+}
+.build-req-preview-button-disabled {
+  box-sizing: border-box;
+  height: 44px;
+  width: 112px;
+  letter-spacing: 0.5px!important;
+  font-weight: 500!important;
+  border: 1px solid $forgot-password-color !important;
+  border-radius: 2px;
+  color: $forgot-password-color !important;
+  margin-right: 10px !important;
+  box-shadow: none!important;
+  &:hover{
+    cursor: default;
+  }
+}
+.build-req-create-button {
+  height: 44px;
+  width: 116px;
+  border-radius: 3px;
+  background-color: $secondary-caribbean-green !important;
+  color: $secondary-white !important;
+  box-shadow: none!important;
+  &:hover {
+    background-color: $primary-guppie-green !important;
+    transition: 0.2s ease-in;
+    box-shadow: none!important;
+  }
+}
+.build-req-create-button-disabled {
+  height: 44px;
+  width: 116px;
+  border-radius: 3px;
+  background-color: $forgot-password-color !important;
+  color: $secondary-white !important;
+  box-shadow: none!important;
+  &:hover {cursor: pointer !important;
+  }
+}
+
+.tcpa-decline-button {
+  color: $secondary-white !important;
+  width: 129px;
+  background-color: $secondary-sonic-silver !important;
+  height: 44px;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "Open Sans" !important;
+  border-color: $secondary-caribbean-green !important;
+  text-align: center;
+  &:hover {
+    background-color: $secondary-spanish-grey !important;
+    transition: 0.2s ease-in;
+  }
+}
+
+.tcpa-accept-button {
+  color: $secondary-white !important;
+  width: 153px;
+  background-color: $secondary-caribbean-green !important;
+  height: 44px;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "Open Sans" !important;
+  border-color: $secondary-caribbean-green !important;
+  text-align: center;
+  &:hover {
+    background-color: $primary-guppie-green !important;
+    transition: 0.2s ease-in;
+  }
+}
+
+.tcpa-learn-more {
+  color: $primary-read-more !important;
+  text-transform: capitalize !important;
+  text-decoration: underline !important;
+  cursor: none;
+  display: none;
+  letter-spacing: 0.27px;
+  font-family: "Open Sans" !important;
+  transition: none !important;
+}
+.send-button-disabled{
+  width: 153px;
+  height: 44px;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  color: $secondary-white !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "Open Sans" !important;
+  background-color: $forgot-password-color !important;
+  border-color:$forgot-password-color !important;
+  text-align: center;  
+  &:hover {cursor: pointer !important;
+  }
+}
+.default-button{
+  width: 153px;
+  height: 44px;
+  border: 0px !important;
+  border-radius: 3px !important;
+  color: $secondary-white !important;
+  background-color: $secondary-caribbean-green !important;
+  box-shadow: none !important;  
+  font-family: "Open Sans" !important;
+  margin: 0px 0px 15px 0px !important;
+  cursor: pointer;
+}
+.default-btn-bypass{  
+  min-width: 275px;
+  min-height: 44px;
+  border: 0px !important;
+  padding: 0px 10px;
+  border-radius: 3px !important;
+  color: $secondary-white !important;
+  background-color: $secondary-caribbean-green !important;
+  box-shadow: none !important;  
+  font-family: "Open Sans" !important;
+  margin: 0px 0px 35px 0px !important;
+  cursor: pointer;
+}

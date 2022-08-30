@@ -1,0 +1,96 @@
+@import "../colors/colors";
+
+.drawer-container {
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+.drawer-content-container{
+    padding-bottom: 45px;
+}
+.drawer-head {
+    padding: 5px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.drawer-head-text {
+    margin-left: 50px;
+    height: 28px;
+    max-width: 445px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.checkbox-heading {
+    height: 22px;
+    max-width: 144px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.23px;
+    line-height: 25px;
+}
+.label-text {
+    // max-width: 108px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.build-items {
+    text-transform: uppercase;
+    height: 50px;
+    max-width: 116px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.23px;
+    line-height: 22px;
+}
+.build-cost {
+    text-transform: uppercase;
+    height: 50px;
+    max-width: 116px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.23px;
+    line-height: 22px;
+}
+.build-rate {
+    height: 50px;
+    max-width: 116px;
+    color: $secondary-black-olive;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.23px;
+    line-height: 22px;
+}
+.close-icon {
+    margin-right: 16px;
+}
+.checkbox-area {
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+.items-content{
+    margin-bottom: 20px;
+    padding-left: 8px;
+}
+.drawer-buttons{
+   margin-bottom:15px;
+   padding-left:8px;
+   min-width:250px;
+}
+.checkbox-control{
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}

@@ -1,0 +1,85 @@
+@import "../colors/colors";
+
+.navmenu-container {
+    height: 75px;
+    border-top: 1px solid $secondary-argent;
+    border-bottom: 1px solid $secondary-argent;
+}
+
+.list-item {
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 16px;
+    color: $secondary-quartz;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.53px;
+    line-height: 16px;
+    text-align: center;
+    &:hover {
+        color: $secondary-caribbean-green !important;
+        border-bottom: 2px solid $secondary-caribbean-green !important;
+        transition: 0.05s ease-in;
+    }
+}
+.list-item-small{
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 16px;
+    color: $secondary-quartz;
+    margin-right: 8px;
+    padding: 9px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.53px;
+    line-height: 16px;
+    text-align: center;
+    &:hover {
+        color: $secondary-caribbean-green !important;
+        border-bottom: 2px solid $secondary-caribbean-green !important;
+        transition: 0.05s ease-in;
+    }
+}
+.nav-link {
+    color: $secondary-caribbean-green !important;
+    border-bottom: 2px solid $secondary-caribbean-green !important;
+}
+.dropdown-category {
+    height: 58px; 
+    padding-left: 35px !important;
+    border-bottom: 1px solid black;
+}
+.category-title {
+    height: 16px;
+    width: 132px;
+    color: $secondary-quartz;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.53px;
+    line-height: 16px;
+    text-align: center;
+}
+.navmenu-sidebar-icon-badge {
+    height: 20px;
+    width: 20px;
+    background-color: $secondary-chinese-silver; //$secondary-quartz for active count
+    position: relative;
+    left: -3px;
+    border-radius: 50%;
+    float: right;
+}
+
+.navmenu-sidebar-icon-badge-count {
+    height: 17px;
+    width: 17px;
+    color: $secondary-white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 17px;
+    position: relative;
+    left: 7px;
+    bottom: 3px;
+}

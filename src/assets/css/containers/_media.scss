@@ -1,0 +1,158 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+@import "../mixins/margin";
+
+.media-carousel-container {
+    max-height: 190px;
+    width: 100%;
+    @include custom-padding;
+    position: relative;
+}
+
+.media-carousel-content {
+    height: 170px;
+    width: 100%;
+    top: -25px;
+    left: 5px;
+}
+
+.media-carousel-slide {    
+    height: 190px !important;
+}
+
+.media-carousel-image-container {
+    background-color: $secondary-black-olive;
+    height: 170px;
+}
+
+.media-carousel-image-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.media-carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.media-carousel-video {
+    width: 100%;
+    background-color: $secondary-black-olive;
+    & > div {
+        padding: 169px 0 0 0 !important;
+    }
+}
+
+.carousel__inner-slide {
+    width: calc(100% - 10px) !important;
+}
+
+.media-right-icon {
+    position: relative;
+    top: -117px;
+    left: 21px;
+    float: right;
+}
+
+.media-left-icon {
+    position: relative;
+    top: -117px;
+    left: -21px;
+}
+
+.media-btn-right-icon {
+    position: relative;
+    top: -111px;
+    float: right;
+    left: 5px;
+    width: 6px;
+    height: 13px;
+    z-index: 9;
+    background-color: transparent;
+    border: none;
+}
+
+.media-btn-left-icon {
+    position: relative;
+    top: -123px;
+    left: -5px;
+    z-index: 9;
+    width: 6px;
+    height: 13px;
+    background-color: transparent;
+    border: none;
+}
+
+.media-carousel-indicators {
+    @include custom-padding;
+    position: relative;
+    top: -20px;
+    & > button {
+        width: 24.9px;
+        height: 4px;
+        background-color: $secondary-light-silver;
+        margin-right: 5px;
+        position: relative;
+        left: -5px;
+        border: none;
+    }
+}
+
+button.dot___3c3SI.carousel__dot.carousel__dot--selected {
+    background-color: $secondary-old-silver !important;
+}
+
+.media-title-header {
+    @include custom-padding;
+}
+
+.media-container {
+    max-width: 270px;
+    max-height: 216px;
+    margin-bottom: 15px;
+    display: inline;
+    position: relative;
+    left: 10px;
+}
+
+.media-video-container {
+    display: inline-block;
+}
+
+.media-video {
+    width: 270px;
+    height: 216px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: $secondary-black-olive;
+    border: 0.67px solid $secondary-chinese-silver;
+
+    & > div {
+        padding: 79.8% 0 0 0 !important;
+    }
+}
+
+.media-images-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.media-images {
+    width: 270px;
+    height: 216px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    background-color: $secondary-black-olive;
+    border: 0.67px solid $secondary-chinese-silver;
+    display: inline-flex;
+}
+
+.svg-clickable {
+    position: absolute;
+    width: 270px;
+    height: 216px;
+}
+// .iframe-container-div::after { content: ""; background: transparent; width: 100%; height: 100%; min-height: 1px; position: absolute; top: 0; }

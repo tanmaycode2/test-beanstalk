@@ -1,0 +1,32 @@
+@import "../colors/colors";
+
+.general-info-key {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.general-info-value {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.info-para {
+    color: $primary-black-olive;
+    // font-weight: 500;
+    margin: 10px 0px;
+}
+.info-key-normal {
+    font-size: 16px;
+    font-weight: 600;
+}
+.info-key-light {
+    font-size: 15px;
+    font-weight: 600;
+}
+.info-value-normal {
+    font-size: 16px;
+    // font-weight: 500;
+}
+.info-value-light {
+    font-size: 14px;
+}

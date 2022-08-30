@@ -1,0 +1,413 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+
+.report-main-title-container {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.report-main-title {
+  // height: 32px; text overlaping for lenghthy heading if given height for it
+  color: $primary-black-olive;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 32px;
+  border-bottom: 2px solid $secondary-quartz;
+  margin-bottom: 15px;
+  margin-top: 96px;
+}
+
+.report-main-disclaimer {
+  @include custom-top-padding;
+  color: $secondary-black-olive;
+  font-size: 16px;
+  letter-spacing: 0.27px;
+  line-height: 25px;
+}
+
+.report-main-sub-category {
+  color: $secondary-black-olive;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.03px;
+  line-height: 25px;
+  // margin-bottom: 13px!important;
+  margin-top: 40px !important;
+}
+
+.report-card-body {
+  @include base-padding;
+  padding-left: 45px !important;
+}
+
+.report-card-container {
+  border: 1px solid $secondary-argent !important;
+  box-shadow: none !important;
+}
+
+.report-2nd-card {
+  margin-top: 18px;
+}
+
+.report-card-content {
+  padding: 0px !important;
+}
+
+.report-card-title-container {
+  border-bottom: 1px solid $secondary-spanish-grey;
+  // height: 41px; //in texas heading is overlaping if height is present
+
+  @include custom-padding;
+}
+
+.report-card-checkbox {
+  height: 43px;
+  width: 47px;
+  float: right;
+  position: relative;
+  top: -11px;
+  left: 12px;
+  background-color: $secondary-chinese-silver;
+  border-radius: 5px 5px 0 0;
+
+  &:hover {
+    background-color: $secondary-caribbean-green;
+  }
+}
+
+.report-card-checkbox-icon {
+  position: relative;
+  top: 8px;
+  left: 10px;
+  color: $secondary-white;
+}
+
+.report-card-checkbox-content {
+  width: 47px;
+  height: 89px;
+  float: right;
+  position: relative;
+  top: 33px;
+  left: 60px;
+  z-index: 6;
+  background-color: $secondary-white;
+  border-radius: 0 0 5px 5px;
+  @include custom-padding;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  display: none;
+  margin-left: -46px;
+}
+
+.report-card-checkbox-dollar-icon {
+  margin-bottom: 10px;
+
+  color: $secondary-sonic-silver;
+  &:hover {
+    color: $secondary-caribbean-green;
+  }
+}
+.report-card-checkbox-dollar-icon-active {
+  color: $secondary-caribbean-green;
+  margin-bottom: 10px;
+  // background-color: black !important;
+}
+
+.report-popup-amount-container {
+  position: relative;
+  top: 23px;
+  left: 52px;
+  max-width: 235.2px;
+  max-height: 61px;
+  border: 1px solid $secondary-chinese-white;
+  float: right;
+  background-color: $secondary-white;
+  display: none;
+}
+
+.report-popup-amount-inpt {
+  width: 210px !important;
+  height: 100%;
+  background-color: black !important;
+}
+
+.report-card-checkbox-chat-icon {
+  color: $secondary-sonic-silver;
+  &:hover {
+    color: $secondary-caribbean-green;
+  }
+}
+.report-card-checkbox-chat-icon-active {
+  color: $secondary-caribbean-green;
+}
+.report-popup-message-container {
+  position: relative;
+  top: 8px;
+  left: 52px;
+  max-width: 235.2px;
+  max-height: 61px;
+  border: 1px solid $secondary-chinese-white;
+  float: right;
+  background-color: $secondary-white;
+  z-index: 9;
+  display: none;
+}
+
+.report-popup-message-inpt > textarea {
+  width: 210px !important;
+  height: 41px !important;
+  z-index: 9;
+}
+
+.report-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  width: 480px;
+  color: $secondary-black-olive;
+  display: inline;
+}
+
+.report-card-content-body {
+  @include custom-padding;
+  max-height: 360px;
+}
+
+.report-card-sub-category-title {
+  font-size: 16px;
+  color: $secondary-sonic-silver-1;
+  white-space: pre-line;
+}
+.report-card-sub-category-title-texas {
+  font-size: 16px;
+  color: $secondary-sonic-silver-1;
+  line-height: 27px;
+  white-space: pre-line;
+}
+.report-card-content-main {
+  @include custom-padding;
+  padding-top: 28px;
+  font-size: 16px;
+  color: $secondary-sonic-silver-1;
+}
+
+.report-card-footer {
+  @include custom-padding;
+  border-top: 1px solid $secondary-argent;
+  height: 45px;
+  background-color: $severity-acceptable;
+  margin-bottom: auto;
+}
+
+.report-2nd-card-footer {
+  background-color: $secondary-white;
+}
+
+.report-card-footer-title {
+  text-transform: capitalize;
+  height: 18px;
+  margin-top: 1px;
+  color: $secondary-white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.report-substr-icon {
+  position: relative;
+  top: 5px;
+  margin-top: -5px;
+}
+
+.report-sidebar-main-body {
+  width: 217px !important;
+  background-color: $secondary-white;
+  border-right: 1px solid $secondary-argent !important;
+  border-bottom: 1px solid $secondary-argent !important;
+  box-shadow: none !important;
+  position: relative;
+  top: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.report-sidebar-content-icon {
+  font-size: 12px !important;
+  margin-right: 5px;
+}
+.report-sidebar-content-static-icon {
+  font-size: 20px !important;
+  margin-right: 5px;
+}
+.static-icon {
+  display: inline-flex;
+}
+.sidebar-wrapper {
+  display: inline-flex;
+  align-items: baseline;
+}
+.sidebar-outer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.report-sidebar-menu-title {
+  font-size: 14px;
+  color: $secondary-quartz;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  word-wrap: break-word;
+  //width: calc(100% - -30px);
+  // height: 56px;
+  padding: 20px 10px 20px 20px;
+  &:hover {
+    color: $secondary-caribbean-green;
+    cursor: pointer;
+  }
+}
+.active {
+  color: $secondary-caribbean-green !important;
+}
+.first-active {
+  color: $secondary-caribbean-green !important;
+}
+.report-sidebar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.read-more-less {
+  cursor: pointer;
+  &:hover {
+    color: $secondary-caribbean-green;
+  }
+}
+
+.report-sidebar-icon-badge {
+  height: 20px;
+  width: 20px;
+  background-color: $secondary-chinese-silver; //$secondary-quartz for active count
+  position: relative;
+  // left: -30px;
+  border-radius: 50%;
+  float: right;
+  padding-left: 18px;
+}
+.report-sidebar-icon-badge-active {
+  height: 20px;
+  width: 20px;
+  background-color: $secondary-quartz;
+  position: relative;
+  // left: -30px;
+  border-radius: 50%;
+  float: right;
+  padding-left: 18px;
+}
+
+.report-sidebar-icon-badge-count {
+  height: 17px;
+  width: 17px;
+  color: $secondary-white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: auto;
+  line-height: 17px;
+  position: relative;
+  left: -11px;
+  bottom: 1px;
+}
+.report-sidebar-category-wrapper {
+  display: inline-flex;
+}
+.pdf-view-tool {
+  height: 100%;
+  width: calc(100vw - 100px) !important;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.disclaimer-content {
+  margin-bottom: 40px;
+}
+.empty-category {
+  margin-top: -4px;
+  visibility: hidden;
+}
+.sweet-alert h2{
+  font-size: 28px!important;
+}
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -15px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1900px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -30px;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2200px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -60px;
+  }
+}
+
+@media screen and (min-width: 2200px) and (max-width: 2400px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -130px;
+  }
+}
+
+@media screen and (min-width: 2400px) and (max-width: 2600px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -140px;
+  }
+}
+
+@media screen and (min-width: 2600px) {
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-container {
+    width: 545px;
+  }
+
+  .report-card-body {
+    position: relative;
+    left: -190px;
+  }
+}

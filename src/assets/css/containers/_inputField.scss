@@ -1,0 +1,104 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+
+.checkIcon {
+  position: relative !important;
+  display: block;
+  float: right;
+  height: 32px;
+  width: 45px;
+  background-color: $secondary-chinese-silver;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  left: 0px;
+
+  &:hover {
+    background-color: $secondary-caribbean-green;
+  }
+}
+
+.checkIcon-icon {
+  position: absolute;
+  float: right;
+  left: 11px;
+  top: 5px;
+  color: $secondary-white;
+  z-index: 1;
+
+  &:hover {
+    background-color: $secondary-caribbean-green;
+  }
+}
+
+.checkIcon-active {
+  background-color: $secondary-caribbean-green;
+}
+
+.checkIconItems {
+  position: relative;
+  height: 80px;
+  top: -32px;
+  border-radius: 6px;
+  background-color: $secondary-white;
+}
+
+.checkIconItems > svg {
+  position: relative;
+  right: 5px;
+  margin-bottom: 5px;
+  color: $secondary-sonic-silver;
+}
+
+.dollar {
+  display: inline-block;
+  position: relative !important;
+
+  &:before {
+    position: absolute;
+    content: "$";
+    left: 6px;
+    top: 2px;
+  }
+}
+
+.dollar input {
+  padding-left: 15px !important;
+  height: 25px !important;
+  width: 155px !important;
+}
+
+.dollar input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+.inpt-checkicon {
+  position: relative;
+  color: $secondary-caribbean-green;
+  left: 126px;
+  top: -25px;
+  display: none !important;
+}
+
+.comment-checkicon {
+  position: relative;
+  color: $secondary-caribbean-green;
+  left: 239px;
+  top: -40px;
+  display: none !important;
+}
+.dollar-input {
+  border-radius: 3px;
+  border: 1px solid #2491eb;
+  background-color: "white";
+}
+.dollar-input::-webkit-outer-spin-button,
+.dollar-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.dollar-input[type="number"] {
+  -moz-appearance: textfield;
+}

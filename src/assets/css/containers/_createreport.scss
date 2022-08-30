@@ -1,0 +1,118 @@
+@import "../colors/colors";
+@import "../mixins/padding";
+
+.popup-box {
+  position: fixed;
+  background: $background-container-dark;
+  width: 100%;
+  z-index: 9;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  max-width: 702px;
+  margin: 0 auto;
+  max-height: 93vh;
+  margin-top: calc(100vh - 85vh - 60px);
+  background: #fff;
+  z-index: 9;
+  border-radius: 2px;
+  padding: 20px;
+  border: 1px solid $secondary-spanish-grey;
+  overflow: auto;
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.heading {
+  font-size: 28px;
+  font-family: Open Sans;
+  font-weight: 600;
+  letter-spacing: 0.41px;
+  line-height: 40px;
+  color: $secondary-black-olive;
+  display: inline;
+}
+.sub-heading {
+  font-size: 16px;
+  font-family: "Open Sans";
+  letter-spacing: 0.27px;
+  line-height: 24px;
+  color: $secondary-black-olive;
+  display: inline;
+}
+
+.other-heading {
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0.27px;
+  line-height: 24px;
+  color: $secondary-black-olive;
+  font-weight: bold;
+}
+.para {
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0.27px;
+  line-height: 24px;
+  color: $secondary-black-olive;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.send-email {
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0.27px;
+  line-height: 24px;
+  color: $secondary-black-olive;
+  font-weight: bold;
+}
+.container1 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container2 {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  padding-right: 20px !important;
+}
+.recipient_error {
+  color: red;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  font-size: 14px;
+}
+.label-light{
+  display:block;
+}
+.label-normal{
+  display:block;
+  padding-top: 25px;
+}
+.demo-title{
+  text-align: center;
+  color: $secondary-black-olive;
+  font-family: "Open Sans" !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+.demo-content{
+  color: $secondary-black-olive;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0.27px;
+  line-height: 24px;
+}
+.button-center{
+  justify-content: center!important;
+}

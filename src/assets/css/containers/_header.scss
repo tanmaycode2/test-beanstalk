@@ -1,0 +1,47 @@
+@import "../colors/colors";
+
+.header-container {
+    height: 97px;
+    margin-top: -6px !important;
+}
+.brand-logo {
+    margin-left: 20px;
+    margin-bottom: 19px;
+}
+.logo {
+    max-width: 140px;
+    max-height: 61px;
+}
+.menu-icon {
+    box-sizing: border-box;
+    height: 44px!important;
+    width: 44px!important;
+    border: 0.5px solid $secondary-chinese-silver;
+    background-color: $menu-icon-background;
+    padding: 10px;
+    color: $secondary-sonic-silver-1;
+    cursor: pointer;
+}
+.test ul {
+    padding-bottom: 0px !important;
+}
+
+.dropdown {
+    background-color: white;
+}
+.dropdown:hover {
+    background-color: white !important;
+    cursor: default !important;
+}
+.dropdown:checked {
+    background-color: white !important;
+    cursor: default !important;
+}
+.dropdown:active {
+    background-color: white !important;
+    cursor: default !important;
+}
+.dropdown:visited {
+    background-color: white !important;
+    cursor: default !important;
+}
